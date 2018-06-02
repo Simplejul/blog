@@ -9,8 +9,21 @@
 
 </head>
 <body>
-
-    
+    <button id="new" onclick="displayEdition()">new article</button>
+    <div id="edition">
+        <div>
+            <label for="title">Title : </label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+            <label for="writeArticle">Write article :</label>
+            <textarea name="writeArticle" id="writeArticle" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" onclick="postit()">Post it</button>
+    </div>
+    <div id="blog">
+        
+    </div>
     <script src="node_modules/jquery/dist/jquery.js" name="jquery"></script>
     <script src="main.js"></script>
 </body>
