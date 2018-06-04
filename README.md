@@ -1,3 +1,3 @@
 # Exo Moteur de blog
 
-click [here]()
+click [here](https://simplejul.github.io/blog/)
